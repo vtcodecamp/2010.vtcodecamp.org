@@ -1,6 +1,6 @@
-[![Netlify Status](https://api.netlify.com/api/v1/badges/64f202e7-0be4-49ec-98ad-bfad043f233a/deploy-status)](https://app.netlify.com/sites/vtcodecamp2011/deploys)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/64f202e7-0be4-49ec-98ad-bfad043f233a/deploy-status)](https://app.netlify.com/sites/vtcodecamp2010/deploys)
 
-# VT Code Camp 2011 Website
+# VT Code Camp 2010 Website
 
 Built with the [11ty/Eleventy](https://www.11ty.io) & [netlify](https://app.netlify.com/)
 
