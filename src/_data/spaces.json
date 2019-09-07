@@ -1,0 +1,26 @@
+{
+    "room-1": {
+        "slug": "room-1",
+        "title": "Room 1",
+        "track": "dot-net"
+    },
+    "room-2": {
+        "slug": "room-2",
+        "title": "Room 2",
+        "track": "web"
+    },
+    "room-3": {
+        "slug": "room-3",
+        "title": "Room 3",
+        "track": "data-and-more"
+    },
+    "room-4": {
+        "slug": "room-4",
+        "title": "Room 4",
+        "track": "patterns-and-practices"
+    },
+    "speaker-room": {
+        "slug": "speaker-room",
+        "title": "Speaker Room"
+    }
+}

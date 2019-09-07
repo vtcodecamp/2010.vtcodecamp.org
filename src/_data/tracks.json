@@ -1,0 +1,18 @@
+{
+    "data-and-more": {
+        "slug": "data-and-more",
+        "title": "Data & More"
+    },
+    "dot-net": {
+        "slug": "dot-net",
+        "title": ".NET"
+    },
+    "patterns-and-practices": {
+        "slug": "patterns-and-practices",
+        "title": "Patterns & Practices"
+    },
+    "web": {
+        "slug": "web",
+        "title": "Web"
+    }
+}

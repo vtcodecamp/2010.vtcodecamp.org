@@ -1,0 +1,407 @@
+{
+    "asp-net-mvc-3": {
+        "slug": "asp-net-mvc-3",
+        "title": "Building a Real World Application with MVC 3",
+        "description": "From input validation, to routing we will build an application that will allow you to understand to bend MVC 3 to your needs. You'll see how to quickly setup a new site, hook it up with the new Entity Framework 4.1 templates and create some views with the Razor view engine. We'll cover as much as possible for the short time we have together and get you excited with MVC. Questions and discussions are encouraged but learning is guaranteed.",
+        "track": "dot-net",
+        "space": "room-1",
+        "timePeriod": 1445,
+        "speakers": [
+            "maxime-rouiller"
+        ]
+    },
+    "asp-net-mvc-a-gateway-to-rails": {
+        "slug": "asp-net-mvc-a-gateway-to-rails",
+        "title": "ASP.NET MVC: A Gateway to Rails?",
+        "description": "There seem to be a lot of .NET developers taking a solid look at Ruby on Rails recently (and some are jumping ship on .NET) and I have to wonder if the reason is ASP.NET MVC. There are a lot of similarities between the two and in this session I will give an intro to Ruby on Rails from a ASP.NET MVC developers prospective and how they are similar. I took my first look at Rails several years ago, but it was after working with ASP.NET MVC, that I really \"discovered\" what Rails had to offer. I will share my learning process from ASP.NET MVC to Rails and how working with Rails has helped me be a better overall developer.",
+        "track": "web",
+        "space": "room-2",
+        "timePeriod": 900,
+        "speakers": [
+            "dane-morgridge"
+        ]
+    },
+    "cloud-architecture-patterns": {
+        "slug": "cloud-architecture-patterns",
+        "title": "Cloud Architecture Patterns for Mere Mortals with Examples in Windows Azure",
+        "description": "How do you design applications for the cloud so that they will be scalable and reliable? In this talk, we will explain several architectural patterns which are popular for cloud computing: we will look at the need for the patterns generally, then look concretely at how you might realize them using capabilities of the Windows Azure Platform. CQRS, NoSQL, Sharding, and a few smaller patterns will be considered.",
+        "track": "dot-net",
+        "space": "room-1",
+        "timePeriod": 900,
+        "speakers": [
+            "bill-wilder"
+        ],
+        "resources": [
+            {
+                "href": "http://www.slideshare.net/codingoutloud/vermont-code-camp-iii-cloud-architecture-patterns-for-mere-mortals-bill-wilder-10sept2011",
+                "title": "Slides"
+            }
+        ]
+    },
+    "cloud-computing-smorgasbord": {
+        "slug": "cloud-computing-smorgasbord",
+        "title": "Sampling from the Cloud Computing Smorgasbord",
+        "description": "Though it's been around for several years, \"cloud computing\" is rapidly evolving, and a crisp, universal definition continues to elude us. In this session, we'll focus not on definitions but on the concrete: the services you should look for in a cloud provider. Although the content will highlight the service offerings of Windows Azure; we'll also include discussion of other cloud vendor offerings in a compare/contrast fashion.",
+        "track": "data-and-more",
+        "space": "room-3",
+        "timePeriod": 1330,
+        "speakers": [
+            "jim-oneil"
+        ],
+        "resources": [
+            {
+                "href": "http://www.slideshare.net/jimoneil/sampling-from-the-cloud-smorgasbord",
+                "title": "Slides"
+            }
+        ]
+    },
+    "css-wrangling-with-sass": {
+        "slug": "css-wrangling-with-sass",
+        "title": "CSS Wrangling with SASS",
+        "description": "Sass is an extension of CSS3 that adds power and elegance to the basic language. It allows you to use variables, nested rules, mixins, inline imports, and more, all with a fully CSS-compatible syntax. (With a little help from Ruby) This talk will cover an overview of what Sass is, how to get it, run it, and use it, and show some examples of its magic.",
+        "track": "web",
+        "space": "room-2",
+        "timePeriod": 1615,
+        "speakers": [
+            "rob-friesel"
+        ],
+        "resources": [
+            {
+                "href": "http://www.slideshare.net/founddrama/wrangling-the-css-beast-with-sass",
+                "title": "Slides"
+            },
+            {
+                "href": "https://github.com/founddrama/vt-code-camp",
+                "title": "Code"
+            }
+        ]
+    },
+    "dependency-injection": {
+        "slug": "dependency-injection",
+        "title": "Dependency Injection",
+        "description": "This talk will describe the what, why and how one would use Dependency Injection (DI) as a technique for building systems. We'll talk about what DI (and Inversion of Control (IoC)) are, why it's popular, and what the pros and cons of the approach are. We'll look at specific examples where DI helps solve real-world problems. Examples will be primarily in a modern high-level language like C#/Java, but we'll explicitly talk about DI in the context of multiple languages and systems.",
+        "track": "patterns-and-practices",
+        "space": "room-4",
+        "timePeriod": 1615,
+        "speakers": [
+            "josh-sled"
+        ]
+    },
+    "dot-net-and-nosql": {
+        "slug": "dot-net-and-nosql",
+        "title": ".NET and NoSQL: Relaxing with CouchDB",
+        "description": "NoSQL databases continue to gain popularity across a variety of development platforms. One of the more popular of these databases is the Apache project's CouchDB. This talk introduces NoSQL concepts and .NET development with the document-oriented Couch database. No previous experience with NoSQL databases is assumed.",
+        "track": "data-and-more",
+        "space": "room-3",
+        "timePeriod": 1445,
+        "speakers": [
+            "john-zablocki"
+        ],
+        "resources": [
+            {
+                "href": "http://www.codevoyeur.com/Presentations.aspx#dotnetcouch",
+                "title": "Slides"
+            },
+            {
+                "href": "https://bitbucket.org/johnzablocki/codevoyeur-samples/src/1328aee331b5/src/PresentationSamples/NoSQLAndDotNet/CouchDBQuickStart/",
+                "title": "Code"
+            }
+        ]
+    },
+    "effective-prototyping": {
+        "slug": "effective-prototyping",
+        "title": "Effective Prototyping: A Developer's Guide to Better Design through Prototyping",
+        "description": "Software prototyping is an important UX design skill that many people \"just do\" but effective prototyping requires crucial knowledge and practices that aren't obvious. In this talk, Everett will explain prototyping and its goals, compare prototyping to sketching, and explore the different types of prototyping. He will then characterize effective prototyping and explain why those characteristics are so important. Everett will review several commonly available prototyping tools (including SketchFlow), and evaluate their pros and cons. He will conclude by working through some examples so that you can see effective prototyping in practice.If you or your team is prototyping now or considering prototyping in the future, this talk is for you!",
+        "track": "patterns-and-practices",
+        "space": "room-4",
+        "timePeriod": 900,
+        "speakers": [
+            "everett-mckay"
+        ],
+        "resources": [
+            {
+                "href": "http://www.slideshare.net/EverettMcKay/effective-prototyping-for-vermont-code-camp",
+                "title": "Slides"
+            }
+        ]
+    },
+    "emacs": {
+        "slug": "emacs",
+        "title": "Emacs: Everyday, Everyway",
+        "description": "\"Emacs: a great OS, shame it's missing a decent editor\". Emacs is indeed a powerful platform for running a whole set applications that serve to enhance its (actually quite awesome!) editing capabilities into a powerful environment for doing nearly any task. From quickly editing text files to intensely editing source code to building projects to checking email, browsing the web, IM/IRC, twitter,controlling multimedia, and organizing your tasks lists … emacs really is a \"great\" OS. Grounded in the presenter's everyday usage, we'll explore both those mentioned applications, but also talk about the powerful core editing capabilities that make everything come together in a highly functional environment. We'll probably digress into some of the features the presenter doesn't personally use, but are clearly Awesome all the same.",
+        "space": "speaker-room",
+        "timePeriod": 1130,
+        "speakers": [
+            "josh-sled"
+        ]
+    },
+    "ext-js": {
+        "slug": "ext-js",
+        "title": "Introduction to the Ext JS JavaScript Framework \"for Rich Apps in Every Browser\"",
+        "description": "jQuery may be one of the most popular JavaScript frameworks on the web today, but it's not the only one. Ext JS is a mature, feature rich JavaScript framework from [Sencha.com](http://www.sencha.com/). It includes rich User Interface widgets, JavaScript interactive charts (no flash needed), animations, drag-n-drop, eventing, a data package and more. In this session, we'll introduce you to Ext JS, show some sample code, and discuss how Ext JS can be used on its own or alongside JQuery. We'll also take a very brief look at SenchaTouch, an HTML5 mobile application framework, which makes it faster to get into the mobile space, than writing native apps.",
+        "track": "web",
+        "space": "room-2",
+        "timePeriod": 1445,
+        "speakers": [
+            "maura-wilder",
+            "joan-wortman"
+        ],
+        "resources": [
+            {
+                "href": "http://www.slideshare.net/joanwortman/introduction-to-the-extjs-javascript-framework-for-rich-apps-in-every-browser",
+                "title": "Slides"
+            }
+        ]
+    },
+    "foss-in-the-enterprise": {
+        "slug": "foss-in-the-enterprise",
+        "title": "FOSS in the Enterprise",
+        "description": "How do you build a successful web-based startup on free and open source software? There are plenty of examples out there and this session will focus on how we have done so at [Dealer.com](http://www.dealer.com/). We will look at technologies covering all aspects of our production systems, from back-end databases to application servers, messaging, caches, search, service distribution, presentation tier, and monitoring. Some of the specific technologies that will be covered include MongoDB, RabbitMQ, Spring, EhCache, and Solr. We will also discuss the steps needed to identify and select an appropriate open source solution and how to drive adoption at your workplace.",
+        "track": "patterns-and-practices",
+        "space": "room-4",
+        "timePeriod": 1330,
+        "speakers": [
+            "kevin-thorley"
+        ]
+    },
+    "functional-programming-on-the-jvm": {
+        "slug": "functional-programming-on-the-jvm",
+        "title": "Functional Programming on the JVM",
+        "description": "Functional programming appears to be gaining in popularity. This session will give a brief explanation of what functional programming is and introduce three functional languages built on top of the Java Virtual Machine: Groovy, Scala, and Clojure. The session will cover language fundamentals, a short history of each language, and a comparison of how a problem can be solved in java and each of the functional languages.",
+        "track": "patterns-and-practices",
+        "space": "room-4",
+        "timePeriod": 1130,
+        "speakers": [
+            "jonathan-phillips"
+        ]
+    },
+    "functional-programming": {
+        "slug": "functional-programming",
+        "title": "What is Functional Programming?",
+        "description": "The challenges of concurrent and parallel processing as well as the addition of functional programming features onto imperative languages have sparked an increased interest in functional programming. We'll explore the foundations of functional programming, how it is different from imperative programming, and assess the claims made about it.",
+        "track": "patterns-and-practices",
+        "space": "room-4",
+        "timePeriod": 1015,
+        "speakers": [
+            "eric-smith"
+        ],
+        "resources": [
+            {
+                "href": "http://www.whatisfp.net/",
+                "title": "Papers"
+            }
+        ]
+    },
+    "getting-high-on-mef": {
+        "slug": "getting-high-on-mef",
+        "title": "Getting High on MEF",
+        "description": "Managed Extensibility Framework (MEF) is one of the coolest things around for people that are writing extensible and modular applications. I will be showing off some of the goodies that you can do with MEF. I will be showing how to use it to compose both front end as well as backend systems. If you are considering going down the MEF path for your next or current application stop by all questions will be answered! Beginners welcome!",
+        "track": "dot-net",
+        "space": "room-1",
+        "timePeriod": 1615,
+        "speakers": [
+            "matt-van-horn"
+        ]
+    },
+    "html5-a-practical-first-look": {
+        "slug": "html5-a-practical-first-look",
+        "title": "HTML5 – A Practical First Look",
+        "description": "It seems that HTML5 (or at least discussion of it) is everywhere these days. Let's delve into why it, and related web standards, are getting so much attention. We'll look at HTML5′s new options and elements as well as other specifications like CSS3, ECMAScript5, SVG, and beyond. And because knowing what's new is only half the battle, we'll also discuss practical techniques for implementing features today while accommodating a variety of browsers and clients that may not fully support these new options.",
+        "track": "web",
+        "space": "room-2",
+        "timePeriod": 1015,
+        "speakers": [
+            "chris-bowen"
+        ],
+        "resources": [
+            {
+                "href": "http://blogs.msdn.com/b/cbowen/archive/2011/07/13/list-of-html5-presentation-resources.aspx",
+                "title": "Resources"
+            }
+        ]
+    },
+    "introduction-to-sql-server-profiler": {
+        "slug": "introduction-to-sql-server-profiler",
+        "title": "Introduction to SQL Server Profiler",
+        "description": "Learn how to use SQL Server Profiler/Trace to troubleshoot SQL Server performance and errors. This session will cover how to use Profiler to capture SQL Server events, creating server-side traces, creating custom templates, saving trace data, and interpreting trace data.",
+        "track": "data-and-more",
+        "space": "room-3",
+        "timePeriod": 900,
+        "speakers": [
+            "jack-corbett"
+        ]
+    },
+    "lets-talk-virtualization": {
+        "slug": "lets-talk-virtualization",
+        "title": "Let's talk Virtualization",
+        "description": "You want to learn what virtualization is all about? I'll talk about high level concepts, tips and tricks and best practices. You will learn all that and even why Azure might be an interesting choice when we talk developer virtualization. Concepts like Sysprep, Differencing drives, snapshot intrigue you? I'll let you know all about them and more! Come join me to explore all that virtualization has to offer.",
+        "track": "dot-net",
+        "space": "room-1",
+        "timePeriod": 1330,
+        "speakers": [
+            "etienne-tremblay"
+        ]
+    },
+    "lunch": {
+        "slug": "lunch",
+        "title": "Lunch",
+        "space": "main-hall",
+        "timePeriod": 1230,
+        "speakers": []
+    },
+    "mocking-and-mocking-frameworks": {
+        "slug": "mocking-and-mocking-frameworks",
+        "title": "Mocking and Mocking Frameworks",
+        "description": "Being able to understand why it's important to unit test your application is one thing… Being able to acknowledge that proper unit testing inevitably comes with mocking is another good leap in the right direction… But the real challenge is to decide which mocking framework will you utilize <em>if any</em> and what are the pitfalls one must not fall into when choosing a mocking framework… Join me in an exploration of 3 mocking frameworks (MOQ, JustMock, Isolator) and decide for yourself which one you prefer. In this session we will also compare the \"do it yourself\" mocking with the power of mocking frameworks… This session requires working knowledge of Lambdas.",
+        "track": "patterns-and-practices",
+        "space": "room-4",
+        "timePeriod": 1445,
+        "speakers": [
+            "vincent-grondin"
+        ]
+    },
+    "raffle": {
+        "slug": "raffle",
+        "title": "Raffle",
+        "space": "main-hall",
+        "timePeriod": 1730,
+        "speakers": []
+    },
+    "registration": {
+        "slug": "registration",
+        "title": "Registration",
+        "space": "main-hall",
+        "timePeriod": 800,
+        "speakers": []
+    },
+    "silverlight-development-wp-7-1": {
+        "slug": "silverlight-development-wp-7-1",
+        "title": "What's New in WP 7.1 Silverlight Development",
+        "description": "The new Windows Phone 7.1 platform, codenamed \"Mango\", features were unveiled this past April, and the developer tools were released in May. With over 500 new features included in this release, there is a tremendous amount of new functionality for developers. This presentation will review many of these new features and show how they can be used to build the next generation of Windows Phone applications.",
+        "track": "dot-net",
+        "space": "room-1",
+        "timePeriod": 1015,
+        "speakers": [
+            "john-garland"
+        ],
+        "resources": [
+            {
+                "href": "https://skydrive.live.com/?cid=511766c2b5c5bdd3&sc=documents&uc=2&id=511766C2B5C5BDD3%21720",
+                "title": "Slides & Code"
+            }
+        ]
+    },
+    "snacks": {
+        "slug": "snacks",
+        "title": "Snacks",
+        "space": "main-hall",
+        "timePeriod": 1545,
+        "speakers": []
+    },
+    "software-consulting": {
+        "slug": "software-consulting",
+        "title": "Software Consulting",
+        "description": "Are you smart, organized, creative, and can think quickly on your feet? Want to make more money than your boss (or his boss for that matter) doing the same job you already love? If so then perhaps it is time for you to consider becoming a consultant. I am going to break things down about what consulting is really all about and how to make your clients never want to build anything ever again with out you. We will talk negotiating pay, finding clients, working for / with consulting firms, getting a cut of the larger pie, making your clients dreams come true, and most importantly how to deal with and keep clients.",
+        "space": "speaker-room",
+        "timePeriod": 1330,
+        "speakers": [
+            "matt-van-horn"
+        ]
+    },
+    "ssis-whats-new-in-sql-server-denali": {
+        "slug": "ssis-whats-new-in-sql-server-denali",
+        "title": "SSIS: What's new in SQL Server Denali?",
+        "description": "This session will demonstrate SQL Server Denali's new features such as Server Deployment Model, Environments, etc. All these novelties will be shown by migrating a 2008 SSIS solution to Denali.",
+        "track": "data-and-more",
+        "space": "room-3",
+        "timePeriod": 1130,
+        "speakers": [
+            "christian-cote"
+        ]
+    },
+    "tackling-big-data-with-hadoop": {
+        "slug": "tackling-big-data-with-hadoop",
+        "title": "Tackling Big Data with Hadoop",
+        "description": "Are you swimming in gigabytes of log files that you can't bring yourself to throw away, but don't know how to get value from them? Are there reporting queries you want to run, but you can't afford to tie up your database server with full table scans? Learn how Facebook, Twitter, Last.fm and others handle their huge data volumes using the map-reduce model and the Apache Hadoop project.",
+        "track": "data-and-more",
+        "space": "room-3",
+        "timePeriod": 1015,
+        "speakers": [
+            "david-howell"
+        ],
+        "resources": [
+            {
+                "href": "http://www.slideshare.net/poorlytrainedape/tackling-big-data-with-hadoop-9212076",
+                "title": "Slides"
+            },
+            {
+                "href": "https://github.com/dehowell/hadoop-crypto-demo",
+                "title": "Code"
+            }
+        ]
+    },
+    "testable-entity-framework": {
+        "slug": "testable-entity-framework",
+        "title": "EFing with Code First",
+        "description": "Code First is the newest and coolest feature of Entity Framework and really allows users to approach development in an more Behavior Driven Development and Test Driven Development style than previously allowed. In this session I'll give a quick intro to Code First and how you can get started using it. I'll even show off a bit of BDD and TDD goodness.",
+        "track": "dot-net",
+        "space": "room-1",
+        "timePeriod": 1130,
+        "speakers": [
+            "dane-morgridge"
+        ]
+    },
+    "vs-2010-testing-tools": {
+        "slug": "vs-2010-testing-tools",
+        "title": "VS 2010 Testing Tools",
+        "description": "Wanna get down and dirty with the new VS 2010 testing tools, TFS or branch strategies… Come see Vincent and Etienne at this impromptu sessions where they will answer questions about and demo things like Microsoft Test Manager, Microsoft Lab Manager, Coded UI testing, Test Impact Analysis, Branching and merging, and well anything you'd like to hear about ALM. Vincent is doing a talk on Mocking in the camp but we can continue the discussing in this sessions as well… Hope to see a few of you there!",
+        "track": "data-and-more",
+        "space": "room-3",
+        "timePeriod": 1615,
+        "speakers": [
+            "vincent-grondin",
+            "etienne-tremblay"
+        ]
+    },
+    "web-security-issues": {
+        "slug": "web-security-issues",
+        "title": "Web Security Issues",
+        "description": "Examples of poor programming practices and how to exploit them so you can understand how to prevent these attacks. The examples are in PHP, but most attacks are language neutral.",
+        "track": "web",
+        "space": "room-2",
+        "timePeriod": 1330,
+        "speakers": [
+            "rene-churchill"
+        ],
+        "resources": [
+            {
+                "href": "http://www.slideshare.net/rchurchill/web-security-9243493",
+                "title": "Slides"
+            }
+        ]
+    },
+    "website-performance": {
+        "slug": "website-performance",
+        "title": "A Holistic view of Website Performance",
+        "description": "I will be reviewing the entire process of viewing a webpage, from DNS lookup through HTML rendering, discussing performance improvements at each step.",
+        "track": "web",
+        "space": "room-2",
+        "timePeriod": 1130,
+        "speakers": [
+            "rene-churchill"
+        ],
+        "resources": [
+            {
+                "href": "http://www.slideshare.net/rchurchill/a-holistic-view-of-website-performance",
+                "title": "Slides"
+            }
+        ]
+    },
+    "welcome": {
+        "slug": "welcome",
+        "title": "Welcome",
+        "space": "main-hall",
+        "timePeriod": 845,
+        "speakers": []
+    }
+}
