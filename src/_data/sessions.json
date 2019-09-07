@@ -1,271 +1,153 @@
 {
-    "asp-net-mvc-3": {
-        "slug": "asp-net-mvc-3",
-        "title": "Building a Real World Application with MVC 3",
-        "description": "From input validation, to routing we will build an application that will allow you to understand to bend MVC 3 to your needs. You'll see how to quickly setup a new site, hook it up with the new Entity Framework 4.1 templates and create some views with the Razor view engine. We'll cover as much as possible for the short time we have together and get you excited with MVC. Questions and discussions are encouraged but learning is guaranteed.",
-        "track": "dot-net",
-        "space": "room-1",
-        "timePeriod": 1445,
-        "speakers": [
-            "maxime-rouiller"
-        ]
-    },
-    "asp-net-mvc-a-gateway-to-rails": {
-        "slug": "asp-net-mvc-a-gateway-to-rails",
-        "title": "ASP.NET MVC: A Gateway to Rails?",
-        "description": "There seem to be a lot of .NET developers taking a solid look at Ruby on Rails recently (and some are jumping ship on .NET) and I have to wonder if the reason is ASP.NET MVC. There are a lot of similarities between the two and in this session I will give an intro to Ruby on Rails from a ASP.NET MVC developers prospective and how they are similar. I took my first look at Rails several years ago, but it was after working with ASP.NET MVC, that I really \"discovered\" what Rails had to offer. I will share my learning process from ASP.NET MVC to Rails and how working with Rails has helped me be a better overall developer.",
-        "track": "web",
-        "space": "room-2",
-        "timePeriod": 900,
-        "speakers": [
-            "dane-morgridge"
-        ]
-    },
-    "cloud-architecture-patterns": {
-        "slug": "cloud-architecture-patterns",
-        "title": "Cloud Architecture Patterns for Mere Mortals with Examples in Windows Azure",
-        "description": "How do you design applications for the cloud so that they will be scalable and reliable? In this talk, we will explain several architectural patterns which are popular for cloud computing: we will look at the need for the patterns generally, then look concretely at how you might realize them using capabilities of the Windows Azure Platform. CQRS, NoSQL, Sharding, and a few smaller patterns will be considered.",
-        "track": "dot-net",
-        "space": "room-1",
-        "timePeriod": 900,
-        "speakers": [
-            "bill-wilder"
-        ],
-        "resources": [
-            {
-                "href": "http://www.slideshare.net/codingoutloud/vermont-code-camp-iii-cloud-architecture-patterns-for-mere-mortals-bill-wilder-10sept2011",
-                "title": "Slides"
-            }
-        ]
-    },
-    "cloud-computing-smorgasbord": {
-        "slug": "cloud-computing-smorgasbord",
-        "title": "Sampling from the Cloud Computing Smorgasbord",
-        "description": "Though it's been around for several years, \"cloud computing\" is rapidly evolving, and a crisp, universal definition continues to elude us. In this session, we'll focus not on definitions but on the concrete: the services you should look for in a cloud provider. Although the content will highlight the service offerings of Windows Azure; we'll also include discussion of other cloud vendor offerings in a compare/contrast fashion.",
-        "track": "data-and-more",
+    "bdd": {
+        "slug": "bdd",
+        "title": "Behavior Driven Development",
+        "description": "Are you writing unit tests? Have you considered test-driven development? Isn't it hard? And why spend all that time writing unit tests when you could be writing the code that you're actually supposed to??? Well, if this is how you feel about unit testing, behavior-driven development (and maybe even this session) just may be your answer. BDD is not much different than TDD in terms of the code itself. Stakeholders, testers, and developers share a common language that define the specifications that evolve right along with the system being built. These executable specifications not only describe how your application should work, they indicate when the system is not working as expected. Come see how with practice, you can actually write code faster and with fewer bugs than without having tests to support your efforts.",
+        "track": "platform-agnostic",
         "space": "room-3",
-        "timePeriod": 1330,
+        "timePeriod": 1700,
         "speakers": [
-            "jim-oneil"
-        ],
-        "resources": [
-            {
-                "href": "http://www.slideshare.net/jimoneil/sampling-from-the-cloud-smorgasbord",
-                "title": "Slides"
-            }
+            "tom-cooley"
         ]
     },
-    "css-wrangling-with-sass": {
-        "slug": "css-wrangling-with-sass",
-        "title": "CSS Wrangling with SASS",
-        "description": "Sass is an extension of CSS3 that adds power and elegance to the basic language. It allows you to use variables, nested rules, mixins, inline imports, and more, all with a fully CSS-compatible syntax. (With a little help from Ruby) This talk will cover an overview of what Sass is, how to get it, run it, and use it, and show some examples of its magic.",
-        "track": "web",
-        "space": "room-2",
-        "timePeriod": 1615,
-        "speakers": [
-            "rob-friesel"
-        ],
-        "resources": [
-            {
-                "href": "http://www.slideshare.net/founddrama/wrangling-the-css-beast-with-sass",
-                "title": "Slides"
-            },
-            {
-                "href": "https://github.com/founddrama/vt-code-camp",
-                "title": "Code"
-            }
-        ]
-    },
-    "dependency-injection": {
-        "slug": "dependency-injection",
-        "title": "Dependency Injection",
-        "description": "This talk will describe the what, why and how one would use Dependency Injection (DI) as a technique for building systems. We'll talk about what DI (and Inversion of Control (IoC)) are, why it's popular, and what the pros and cons of the approach are. We'll look at specific examples where DI helps solve real-world problems. Examples will be primarily in a modern high-level language like C#/Java, but we'll explicitly talk about DI in the context of multiple languages and systems.",
-        "track": "patterns-and-practices",
-        "space": "room-4",
-        "timePeriod": 1615,
-        "speakers": [
-            "josh-sled"
-        ]
-    },
-    "dot-net-and-nosql": {
-        "slug": "dot-net-and-nosql",
-        "title": ".NET and NoSQL: Relaxing with CouchDB",
-        "description": "NoSQL databases continue to gain popularity across a variety of development platforms. One of the more popular of these databases is the Apache project's CouchDB. This talk introduces NoSQL concepts and .NET development with the document-oriented Couch database. No previous experience with NoSQL databases is assumed.",
-        "track": "data-and-more",
+    "build-process": {
+        "slug": "build-process",
+        "title": "Get a Handle on Your Build Process",
+        "description": "The choice of tools and processes surrounding your application deployment process can have major impacts on development time, deployment speed, and disaster recovery. This session will focus on [Dealer.com](http://www.dealer.com/)'s migration to Git, Maven, Hudson, and a new branching strategy for consistent, repeatable, speedy builds.",
+        "track": "platform-agnostic",
         "space": "room-3",
-        "timePeriod": 1445,
+        "timePeriod": 1230,
         "speakers": [
-            "john-zablocki"
-        ],
-        "resources": [
-            {
-                "href": "http://www.codevoyeur.com/Presentations.aspx#dotnetcouch",
-                "title": "Slides"
-            },
-            {
-                "href": "https://bitbucket.org/johnzablocki/codevoyeur-samples/src/1328aee331b5/src/PresentationSamples/NoSQLAndDotNet/CouchDBQuickStart/",
-                "title": "Code"
-            }
+            "chris-yager"
         ]
     },
-    "effective-prototyping": {
-        "slug": "effective-prototyping",
-        "title": "Effective Prototyping: A Developer's Guide to Better Design through Prototyping",
-        "description": "Software prototyping is an important UX design skill that many people \"just do\" but effective prototyping requires crucial knowledge and practices that aren't obvious. In this talk, Everett will explain prototyping and its goals, compare prototyping to sketching, and explore the different types of prototyping. He will then characterize effective prototyping and explain why those characteristics are so important. Everett will review several commonly available prototyping tools (including SketchFlow), and evaluate their pros and cons. He will conclude by working through some examples so that you can see effective prototyping in practice.If you or your team is prototyping now or considering prototyping in the future, this talk is for you!",
-        "track": "patterns-and-practices",
+    "cloud-software-fail": {
+        "slug": "cloud-software-fail",
+        "title": "How to Fail Miserably as a Cloud Software Provider: A Business Perspective",
+        "description": "The supply side economics of the software business have changed. While many cloud solutions and services can provide a lower capital investment in moving applications to the cloud, the ongoing costs of operating as a SaaS provider are often overlooked. Software companies still face many challenges today in moving to the SaaS business model, and transforming their business to one of ongoing service delivery. This session will explore the key business and technical ingredients for success as a SaaS provider, and you'll learn why architecture still reigns in the Cloud.",
+        "track": "platform-agnostic",
+        "space": "room-3",
+        "timePeriod": 1030,
+        "speakers": [
+            "jesse-kliza"
+        ]
+    },
+    "css": {
+        "slug": "css",
+        "title": "CSS for Developers",
+        "description": "More often than should be the case, web developers find themselves with the responsibility of implementing the visual design of a website or web application. However, they typically lack the experience to be effective. This session is a crash course in CSS—from fundamental concepts to best practices, and even some insider tips straight from a designer. While we won't talk about aesthetics or how to create design concepts, we will discuss what you need to implement, debug and maintain a visual design.",
+        "track": "open-source",
         "space": "room-4",
-        "timePeriod": 900,
+        "timePeriod": 1345,
         "speakers": [
-            "everett-mckay"
-        ],
-        "resources": [
-            {
-                "href": "http://www.slideshare.net/EverettMcKay/effective-prototyping-for-vermont-code-camp",
-                "title": "Slides"
-            }
+            "jason-pelletier"
         ]
     },
-    "emacs": {
-        "slug": "emacs",
-        "title": "Emacs: Everyday, Everyway",
-        "description": "\"Emacs: a great OS, shame it's missing a decent editor\". Emacs is indeed a powerful platform for running a whole set applications that serve to enhance its (actually quite awesome!) editing capabilities into a powerful environment for doing nearly any task. From quickly editing text files to intensely editing source code to building projects to checking email, browsing the web, IM/IRC, twitter,controlling multimedia, and organizing your tasks lists … emacs really is a \"great\" OS. Grounded in the presenter's everyday usage, we'll explore both those mentioned applications, but also talk about the powerful core editing capabilities that make everything come together in a highly functional environment. We'll probably digress into some of the features the presenter doesn't personally use, but are clearly Awesome all the same.",
-        "space": "speaker-room",
-        "timePeriod": 1130,
-        "speakers": [
-            "josh-sled"
-        ]
-    },
-    "ext-js": {
-        "slug": "ext-js",
-        "title": "Introduction to the Ext JS JavaScript Framework \"for Rich Apps in Every Browser\"",
-        "description": "jQuery may be one of the most popular JavaScript frameworks on the web today, but it's not the only one. Ext JS is a mature, feature rich JavaScript framework from [Sencha.com](http://www.sencha.com/). It includes rich User Interface widgets, JavaScript interactive charts (no flash needed), animations, drag-n-drop, eventing, a data package and more. In this session, we'll introduce you to Ext JS, show some sample code, and discuss how Ext JS can be used on its own or alongside JQuery. We'll also take a very brief look at SenchaTouch, an HTML5 mobile application framework, which makes it faster to get into the mobile space, than writing native apps.",
-        "track": "web",
-        "space": "room-2",
-        "timePeriod": 1445,
-        "speakers": [
-            "maura-wilder",
-            "joan-wortman"
-        ],
-        "resources": [
-            {
-                "href": "http://www.slideshare.net/joanwortman/introduction-to-the-extjs-javascript-framework-for-rich-apps-in-every-browser",
-                "title": "Slides"
-            }
-        ]
-    },
-    "foss-in-the-enterprise": {
-        "slug": "foss-in-the-enterprise",
-        "title": "FOSS in the Enterprise",
-        "description": "How do you build a successful web-based startup on free and open source software? There are plenty of examples out there and this session will focus on how we have done so at [Dealer.com](http://www.dealer.com/). We will look at technologies covering all aspects of our production systems, from back-end databases to application servers, messaging, caches, search, service distribution, presentation tier, and monitoring. Some of the specific technologies that will be covered include MongoDB, RabbitMQ, Spring, EhCache, and Solr. We will also discuss the steps needed to identify and select an appropriate open source solution and how to drive adoption at your workplace.",
-        "track": "patterns-and-practices",
+    "f-sharp-introduction": {
+        "slug": "f-sharp-introduction",
+        "title": "Tech for Devs: Introduction to F#",
+        "description": "If you've already spent time wrapping your head around the use of lambdas in LINQ, find out how to use that knowledge to make the full leap into functional languages and reap the rewards functional languages have to offer you. This stuff is Zen, dude!",
+        "track": "open-source",
         "space": "room-4",
-        "timePeriod": 1330,
+        "timePeriod": 1230,
+        "speakers": [
+            "rob-rohr"
+        ]
+    },
+    "git": {
+        "slug": "git",
+        "title": "Get into Git!",
+        "description": "We'll move from a brief overview of the hottest DVCS on the block into some real life examples of managing branching and merging and then onto some more advanced examples of what Git allows you to do. Bring a laptop with Git installed and you'll be able to follow along. [http://git-scm.com/](http://git-scm.com/)",
+        "track": "platform-agnostic",
+        "space": "room-3",
+        "timePeriod": 1345,
         "speakers": [
             "kevin-thorley"
         ]
     },
-    "functional-programming-on-the-jvm": {
-        "slug": "functional-programming-on-the-jvm",
-        "title": "Functional Programming on the JVM",
-        "description": "Functional programming appears to be gaining in popularity. This session will give a brief explanation of what functional programming is and introduce three functional languages built on top of the Java Virtual Machine: Groovy, Scala, and Clojure. The session will cover language fundamentals, a short history of each language, and a comparison of how a problem can be solved in java and each of the functional languages.",
-        "track": "patterns-and-practices",
-        "space": "room-4",
-        "timePeriod": 1130,
-        "speakers": [
-            "jonathan-phillips"
-        ]
-    },
-    "functional-programming": {
-        "slug": "functional-programming",
-        "title": "What is Functional Programming?",
-        "description": "The challenges of concurrent and parallel processing as well as the addition of functional programming features onto imperative languages have sparked an increased interest in functional programming. We'll explore the foundations of functional programming, how it is different from imperative programming, and assess the claims made about it.",
-        "track": "patterns-and-practices",
-        "space": "room-4",
-        "timePeriod": 1015,
-        "speakers": [
-            "eric-smith"
-        ],
-        "resources": [
-            {
-                "href": "http://www.whatisfp.net/",
-                "title": "Papers"
-            }
-        ]
-    },
-    "getting-high-on-mef": {
-        "slug": "getting-high-on-mef",
-        "title": "Getting High on MEF",
-        "description": "Managed Extensibility Framework (MEF) is one of the coolest things around for people that are writing extensible and modular applications. I will be showing off some of the goodies that you can do with MEF. I will be showing how to use it to compose both front end as well as backend systems. If you are considering going down the MEF path for your next or current application stop by all questions will be answered! Beginners welcome!",
+    "lambdas-visual-studio": {
+        "slug": "lambdas-visual-studio",
+        "title": "Lambdas & Extension Methods using Visual Studio 2010",
+        "description": "They can be used everywhere a delegate is needed, they're handy and very sexy… They're lambdas and if you already know what lambdas are then let me show you a few things you can do with them! We'll start this session with an introduction to the concept of lambdas and then explore spicy lambda examples that will show you more on their potential! Next we'll talk about Extension Methods!  Extensions are very easy to use and you should start digging into them if it's not already part of your project.  You'll get a chance to explore this subject featuring an Open Source project you can all bring back home.",
         "track": "dot-net",
         "space": "room-1",
-        "timePeriod": 1615,
+        "timePeriod": 1545,
         "speakers": [
-            "matt-van-horn"
-        ]
-    },
-    "html5-a-practical-first-look": {
-        "slug": "html5-a-practical-first-look",
-        "title": "HTML5 – A Practical First Look",
-        "description": "It seems that HTML5 (or at least discussion of it) is everywhere these days. Let's delve into why it, and related web standards, are getting so much attention. We'll look at HTML5′s new options and elements as well as other specifications like CSS3, ECMAScript5, SVG, and beyond. And because knowing what's new is only half the battle, we'll also discuss practical techniques for implementing features today while accommodating a variety of browsers and clients that may not fully support these new options.",
-        "track": "web",
-        "space": "room-2",
-        "timePeriod": 1015,
-        "speakers": [
-            "chris-bowen"
-        ],
-        "resources": [
-            {
-                "href": "http://blogs.msdn.com/b/cbowen/archive/2011/07/13/list-of-html5-presentation-resources.aspx",
-                "title": "Resources"
-            }
-        ]
-    },
-    "introduction-to-sql-server-profiler": {
-        "slug": "introduction-to-sql-server-profiler",
-        "title": "Introduction to SQL Server Profiler",
-        "description": "Learn how to use SQL Server Profiler/Trace to troubleshoot SQL Server performance and errors. This session will cover how to use Profiler to capture SQL Server events, creating server-side traces, creating custom templates, saving trace data, and interpreting trace data.",
-        "track": "data-and-more",
-        "space": "room-3",
-        "timePeriod": 900,
-        "speakers": [
-            "jack-corbett"
-        ]
-    },
-    "lets-talk-virtualization": {
-        "slug": "lets-talk-virtualization",
-        "title": "Let's talk Virtualization",
-        "description": "You want to learn what virtualization is all about? I'll talk about high level concepts, tips and tricks and best practices. You will learn all that and even why Azure might be an interesting choice when we talk developer virtualization. Concepts like Sysprep, Differencing drives, snapshot intrigue you? I'll let you know all about them and more! Come join me to explore all that virtualization has to offer.",
-        "track": "dot-net",
-        "space": "room-1",
-        "timePeriod": 1330,
-        "speakers": [
-            "etienne-tremblay"
+            "vincent-grondin"
         ]
     },
     "lunch": {
         "slug": "lunch",
         "title": "Lunch",
         "space": "main-hall",
-        "timePeriod": 1230,
+        "timePeriod": 1130,
         "speakers": []
     },
-    "mocking-and-mocking-frameworks": {
-        "slug": "mocking-and-mocking-frameworks",
-        "title": "Mocking and Mocking Frameworks",
-        "description": "Being able to understand why it's important to unit test your application is one thing… Being able to acknowledge that proper unit testing inevitably comes with mocking is another good leap in the right direction… But the real challenge is to decide which mocking framework will you utilize <em>if any</em> and what are the pitfalls one must not fall into when choosing a mocking framework… Join me in an exploration of 3 mocking frameworks (MOQ, JustMock, Isolator) and decide for yourself which one you prefer. In this session we will also compare the \"do it yourself\" mocking with the power of mocking frameworks… This session requires working knowledge of Lambdas.",
-        "track": "patterns-and-practices",
-        "space": "room-4",
-        "timePeriod": 1445,
+    "mef": {
+        "slug": "mef",
+        "title": "Managed Extensibility Framework",
+        "description": "Composable applications are made of building blocks – like Legos. Composability is an extension of many ideas that have fueled architecture evolution in the last twenty years, including isolation, the creation of tiers, and testable applications. Silverlight and .NET now contain the Managed Extensibility Framework or MEF to provide composability. MEF is available in .NET 3.5 and Silverlight 3.0 via downloads and in the box for .NET 4.0 and Silverlight 4.0. In the first part of this talk, I'll cover what composability is and the three broad categories – extensions, fully composed applications, and architecturally composed applications.  The second part of the talk dives into the technical aspects of MEF and how to use it. MEF itself is fully extensible with many possible models for defining composition parts. I'll skip the theoretical approaches and stick with the mainstream attributed model. You'll learn how to incorporate this attributed model into your own applications to define and retrieve parts. The end of the talk will briefly cover the challenges of debugging MEF, including an introduction to stable composition and its implications. You'll leave understanding when MEF might be a good fit for your applications today and insight into how profoundly composability is likely to change architectures in the relatively near future.",
+        "track": "mostly-dot-net",
+        "space": "room-2",
+        "timePeriod": 1345,
         "speakers": [
-            "vincent-grondin"
+            "kathleen-dollard"
         ]
     },
-    "raffle": {
-        "slug": "raffle",
-        "title": "Raffle",
-        "space": "main-hall",
-        "timePeriod": 1730,
-        "speakers": []
+    "olap": {
+        "slug": "olap",
+        "title": "MS Business Intelligence Fundamentals: Developing OLAP Cubes in SSAS 2008 R2",
+        "description": "This session focuses on the OLAP functionality of SQL Server Analysis Services 2008 R2, exploring the process of developing basic SSAS cubes and dimensions. You will learn how to extend the Unified Dimensional Model (UDM) with KPIs, actions, translations, and perspectives. And finely process and deploy SSAS database and objects into MS SQL Server 2008. We will learn how to:\n\n* Create Data Sources and Data Source Views\n* Create and Modifying SSAS Cubes\n* Create and Modifying Dimensions\n* Create Measure Groups and Measures\n* Create KPIs, Actions, Translations, and Perspectives\n* Process and Deploy SSAS Databases and Objects",
+        "space": "speaker-room-and-parlor-chat",
+        "timePeriod": 1345,
+        "speakers": [
+            "slava-kokaev"
+        ]
+    },
+    "php-introduction": {
+        "slug": "php-introduction",
+        "title": "Tech for Devs: Introduction to PHP",
+        "description": "PHP is a programming language well suited for building web scripts and web applications. We will talk briefly about the history of PHP. You will learn how to write a basic PHP script, declare variables, comment your code, use primitive data types, use operators, write conditionals, use iterators, and take advantage of data structures such as arrays. Available IDEs, frameworks, and other PHP tools such as PEAR will be discussed. You will see some practical examples of how PHP is used to solve real-world problems.",
+        "track": "open-source",
+        "space": "room-4",
+        "timePeriod": 900,
+        "speakers": [
+            "bradley-holt",
+            "matthew-weier-ophinney"
+        ]
+    },
+    "prism-introduction": {
+        "slug": "prism-introduction",
+        "title": "Prism Introduction – A Look Into the New Release of Prism 4.0 (CTP)",
+        "description": "Prism is designed to help you more easily build modular Windows Presentation Foundation (WPF) and Silverlight client applications. These types of applications typically feature multiple screens, rich, flexible user interaction and data visualization, and role-determined behavior. They are \"built to last\" and \"built for change.\" This means that the application's expected lifetime is measured in years and that it will change in response to new, unforeseen requirements. This application may start small and over time evolve into a composite client—composite applications use loosely coupled, independently evolvable pieces that work together in the overall application. This guidance is intended for software architects and software developers building enterprise Windows Presentation Foundation (WPF) or Silverlight applications. The Prism Library is built on the Microsoft .NET Framework 4.0 (includes WPF) and Silverlight 4 (previous versions support .NET Framework 3.5 and Silverlight 3), and it uses a number of software design patterns. Familiarity with these technologies and patterns is useful for evaluating and adopting the Prism Library. This presentation will cover answers to the following questions:\n\n* What is Prism and what does it mean for your current or upcoming project?\n* What are the pros and cons of adopting all or a subset of Prism practices?\n* What are the major/breaking changes in this latest release?\n* Where to get it and what assets are included?",
+        "track": "dot-net",
+        "space": "room-1",
+        "timePeriod": 1700,
+        "speakers": [
+            "kathleen-macmahon"
+        ]
+    },
+    "project-dallas": {
+        "slug": "project-dallas",
+        "title": "Project \"Dallas\" – Data for the Cloud",
+        "description": "Project \"Dallas\" is Microsoft's Data-as-a-Service offering, providing a common, and low-friction approach to a growing number of data sets from the Associated Press, NASA, the UN, and elsewhere. Use of the OpenData (or OData) specification enables applications written in practically any language to create mash-ups limited only by your imagination. Implemented on Microsoft's Windows Azure platform, project \"Dallas\" also serves as a real-world use case of cloud computing.",
+        "track": "platform-agnostic",
+        "space": "room-3",
+        "timePeriod": 1545,
+        "speakers": [
+            "jim-oneil"
+        ]
+    },
+    "python-introduction": {
+        "slug": "python-introduction",
+        "title": "Tech for Devs: Introduction to Python",
+        "description": "An introduction to the Python programming language.",
+        "track": "open-source",
+        "space": "room-4",
+        "timePeriod": 1700,
+        "speakers": [
+            "nowell-strite"
+        ]
     },
     "registration": {
         "slug": "registration",
@@ -274,127 +156,98 @@
         "timePeriod": 800,
         "speakers": []
     },
-    "silverlight-development-wp-7-1": {
-        "slug": "silverlight-development-wp-7-1",
-        "title": "What's New in WP 7.1 Silverlight Development",
-        "description": "The new Windows Phone 7.1 platform, codenamed \"Mango\", features were unveiled this past April, and the developer tools were released in May. With over 500 new features included in this release, there is a tremendous amount of new functionality for developers. This presentation will review many of these new features and show how they can be used to build the next generation of Windows Phone applications.",
+    "ruby-introduction": {
+        "slug": "ruby-introduction",
+        "title": "Tech for Devs: Introduction to Ruby",
+        "description": "An introduction to the Ruby programming language. We will highlight a few key concepts of the ruby language, and walk through developing a simple Ruby script in order to discuss syntax, use of variables, arrays, operators, classes and methods.",
+        "track": "open-source",
+        "space": "room-4",
+        "timePeriod": 1030,
+        "speakers": [
+            "adam-bouchard"
+        ]
+    },
+    "silverlight-part-1": {
+        "slug": "silverlight-part-1",
+        "title": "Building Applications in Silverlight 4 – Part 1",
+        "description": "An overview of Silverlight, review of new features in Silverlight 4, Data binding, WCF RIA and much more!",
         "track": "dot-net",
         "space": "room-1",
-        "timePeriod": 1015,
+        "timePeriod": 900,
         "speakers": [
-            "john-garland"
-        ],
-        "resources": [
-            {
-                "href": "https://skydrive.live.com/?cid=511766c2b5c5bdd3&sc=documents&uc=2&id=511766C2B5C5BDD3%21720",
-                "title": "Slides & Code"
-            }
+            "dennis-perlot"
         ]
     },
-    "snacks": {
-        "slug": "snacks",
-        "title": "Snacks",
+    "silverlight-part-2": {
+        "slug": "silverlight-part-2",
+        "title": "Building Applications in Silverlight 4 – Part 2",
+        "description": "With the release of Silverlight 4 more and more developers are looking to develop in Silverlight, especially with the introduction of Windows Phone 7. In this presentation anyone starting out, or even currently developing with Silverlight, will learn important information regarding this development platform, as well as look into how to create data-driven applications with Silverlight.",
+        "track": "dot-net",
+        "space": "room-1",
+        "timePeriod": 1030,
+        "speakers": [
+            "carl-bergenhem"
+        ]
+    },
+    "snacks-and-raffles": {
+        "slug": "snacks-and-raffles",
+        "title": "Snacks & Raffles",
         "space": "main-hall",
-        "timePeriod": 1545,
+        "timePeriod": 1500,
         "speakers": []
     },
-    "software-consulting": {
-        "slug": "software-consulting",
-        "title": "Software Consulting",
-        "description": "Are you smart, organized, creative, and can think quickly on your feet? Want to make more money than your boss (or his boss for that matter) doing the same job you already love? If so then perhaps it is time for you to consider becoming a consultant. I am going to break things down about what consulting is really all about and how to make your clients never want to build anything ever again with out you. We will talk negotiating pay, finding clients, working for / with consulting firms, getting a cut of the larger pie, making your clients dreams come true, and most importantly how to deal with and keep clients.",
-        "space": "speaker-room",
-        "timePeriod": 1330,
-        "speakers": [
-            "matt-van-horn"
-        ]
-    },
-    "ssis-whats-new-in-sql-server-denali": {
-        "slug": "ssis-whats-new-in-sql-server-denali",
-        "title": "SSIS: What's new in SQL Server Denali?",
-        "description": "This session will demonstrate SQL Server Denali's new features such as Server Deployment Model, Environments, etc. All these novelties will be shown by migrating a 2008 SSIS solution to Denali.",
-        "track": "data-and-more",
-        "space": "room-3",
-        "timePeriod": 1130,
+    "ssis-advanced": {
+        "slug": "ssis-advanced",
+        "title": "SSIS Advanced Concepts",
+        "description": "SSIS is more than appropriate tool for ETL development. It is very flexible and can be used as the main tool for your data warehouse / BI application. In this session, I will demonstrate:- Best practices using package configurations- Usage of logging to record package runs statistics- How to recover from an ETL application crash- ETL application deployment I will share my best practices on the above topics based on my previous experiences. This session can lead to ETL best practices discussions, which would be beneficial for all attendees.",
+        "track": "mostly-dot-net",
+        "space": "room-2",
+        "timePeriod": 1230,
         "speakers": [
             "christian-cote"
         ]
     },
-    "tackling-big-data-with-hadoop": {
-        "slug": "tackling-big-data-with-hadoop",
-        "title": "Tackling Big Data with Hadoop",
-        "description": "Are you swimming in gigabytes of log files that you can't bring yourself to throw away, but don't know how to get value from them? Are there reporting queries you want to run, but you can't afford to tie up your database server with full table scans? Learn how Facebook, Twitter, Last.fm and others handle their huge data volumes using the map-reduce model and the Apache Hadoop project.",
-        "track": "data-and-more",
+    "ui-ux": {
+        "slug": "ui-ux",
+        "title": "UI is Communication: UX Design for Non-Designers",
+        "description": "You are a developer working on a project that needs a good user interface to be successful. But there's a problem: you aren't an experienced UI designer and nobody else on your team is either. You are doing the best you can, but you know could do better. If only you knew more about UI design to help your team make better decisions…If this sounds familiar, join this session where I will present the fundamentals of UI design from the point of view of effective communication. UI design is ultimately all about communicating to users, both in terms of what you say and how you say it. If you can explain how to perform a task to someone in person in a way that's clear and concise, you can apply those same communication techniques to present the task to users using the language of UI. This talk will help you apply UI design skills that you didn't know you had.",
+        "track": "platform-agnostic",
         "space": "room-3",
-        "timePeriod": 1015,
+        "timePeriod": 900,
         "speakers": [
-            "david-howell"
-        ],
-        "resources": [
-            {
-                "href": "http://www.slideshare.net/poorlytrainedape/tackling-big-data-with-hadoop-9212076",
-                "title": "Slides"
-            },
-            {
-                "href": "https://github.com/dehowell/hadoop-crypto-demo",
-                "title": "Code"
-            }
+            "everett-mckay"
         ]
     },
-    "testable-entity-framework": {
-        "slug": "testable-entity-framework",
-        "title": "EFing with Code First",
-        "description": "Code First is the newest and coolest feature of Entity Framework and really allows users to approach development in an more Behavior Driven Development and Test Driven Development style than previously allowed. In this session I'll give a quick intro to Code First and how you can get started using it. I'll even show off a bit of BDD and TDD goodness.",
+    "user-groups": {
+        "slug": "user-groups",
+        "title": "How and Why to Start a User Group",
+        "description": "Technology user groups are a great way to network, learn, share your expertise, meet experts, find job opportunities, and get help when needed. Don't have a local user group focused on the programming language or technology that you use? Start one! Learn what it takes to get started and how much of a commitment it is to organize. This will be a heavily interactive session so come prepared with plenty of questions, or, if you already organize a user group then come prepared with helpful tips to share.",
+        "space": "speaker-room-and-parlor-chat",
+        "timePeriod": 1230,
+        "speakers": [
+            "bradley-holt"
+        ]
+    },
+    "visual-studio-tips-tricks": {
+        "slug": "visual-studio-tips-tricks",
+        "title": "Visual Studio Tips & Tricks",
+        "description": "Visual Studio 2010 represents the first complete rewrite of Visual Studio since the creation of .NET. It presents several new ways to make your life as a developer more efficient, and is a great time to look back at the myriad of features from earlier versions of Visual Studio. You'll see keyboard shortcuts, new dialogs, hidden features of dialogs, debugging enhancements, focusing on the gems that are getting the least attention. Searching and navigating code gets extra time because it's such an important part of your everyday coding.  You'll see macros in action and learn a bit about custom start pages and extensions. This talk focuses on making you more efficient in Visual Studio Professional edition and above in Visual Studio 2010, but many of the features are available in Visual Studio 2008 and lower versions. Come to this talk to learn how to shave hours off your coding experience.",
         "track": "dot-net",
         "space": "room-1",
-        "timePeriod": 1130,
+        "timePeriod": 1230,
         "speakers": [
-            "dane-morgridge"
+            "kathleen-dollard"
         ]
     },
-    "vs-2010-testing-tools": {
-        "slug": "vs-2010-testing-tools",
-        "title": "VS 2010 Testing Tools",
-        "description": "Wanna get down and dirty with the new VS 2010 testing tools, TFS or branch strategies… Come see Vincent and Etienne at this impromptu sessions where they will answer questions about and demo things like Microsoft Test Manager, Microsoft Lab Manager, Coded UI testing, Test Impact Analysis, Branching and merging, and well anything you'd like to hear about ALM. Vincent is doing a talk on Mocking in the camp but we can continue the discussing in this sessions as well… Hope to see a few of you there!",
-        "track": "data-and-more",
-        "space": "room-3",
-        "timePeriod": 1615,
+    "webmatrix": {
+        "slug": "webmatrix",
+        "title": "Enter the WebMatrix: ASP.NET, PHP, Open Source and the Web",
+        "description": "WebMatrix Beta is a free tool for easily developing ASP.NET and PHP web applications. You can start with an open source application (WordPress, DotNetNuke, Joomla, etc.) and customize it, or create your site from scratch. We'll take a look at installing, coding, data, testing, and deployment. We'll also delve into some of the related tech like ASP.NET Web Pages and the new \"Razor\" view engine.",
+        "track": "open-source",
+        "space": "room-4",
+        "timePeriod": 1545,
         "speakers": [
-            "vincent-grondin",
-            "etienne-tremblay"
-        ]
-    },
-    "web-security-issues": {
-        "slug": "web-security-issues",
-        "title": "Web Security Issues",
-        "description": "Examples of poor programming practices and how to exploit them so you can understand how to prevent these attacks. The examples are in PHP, but most attacks are language neutral.",
-        "track": "web",
-        "space": "room-2",
-        "timePeriod": 1330,
-        "speakers": [
-            "rene-churchill"
-        ],
-        "resources": [
-            {
-                "href": "http://www.slideshare.net/rchurchill/web-security-9243493",
-                "title": "Slides"
-            }
-        ]
-    },
-    "website-performance": {
-        "slug": "website-performance",
-        "title": "A Holistic view of Website Performance",
-        "description": "I will be reviewing the entire process of viewing a webpage, from DNS lookup through HTML rendering, discussing performance improvements at each step.",
-        "track": "web",
-        "space": "room-2",
-        "timePeriod": 1130,
-        "speakers": [
-            "rene-churchill"
-        ],
-        "resources": [
-            {
-                "href": "http://www.slideshare.net/rchurchill/a-holistic-view-of-website-performance",
-                "title": "Slides"
-            }
+            "chris-bowen"
         ]
     },
     "welcome": {
@@ -403,5 +256,49 @@
         "space": "main-hall",
         "timePeriod": 845,
         "speakers": []
+    },
+    "windows-azure": {
+        "slug": "windows-azure",
+        "title": "Building Cloud-Native Applications with Windows Azure",
+        "description": "Cloud computing is here to stay, and it is never too soon to begin understanding the impact it will have on application architecture. In this talk we will discuss the two most significant architectural mind-shifts, discussing the key patterns generally and seeing how these new cloud patterns map naturally into specific programming practices in Windows Azure. Specifically this relates to (a) Azure Roles and Queues and how to combine them using cloud-friendly design patterns, and (b) the combination of relational data and non-relational data, how to decide among them, and how to combine them. The goal is for mere mortals to build highly reliable applications that scale economically. The concepts discussed in this talk are relevant for developers and architects building systems for the cloud today, or who want to be prepared to move to the cloud in the future.",
+        "track": "dot-net",
+        "space": "room-1",
+        "timePeriod": 1345,
+        "speakers": [
+            "bill-wilder"
+        ]
+    },
+    "windows-phone-silverlight": {
+        "slug": "windows-phone-silverlight",
+        "title": "Windows Phone Development with Silverlight",
+        "description": "Microsoft's upcoming entry into the new-generation smart-phone market features Silverlight as the platform for application development. This presentation will go over the fundamentals of using Silverlight to develop rich, interactive applications for this emerging platform.",
+        "track": "mostly-dot-net",
+        "space": "room-2",
+        "timePeriod": 1700,
+        "speakers": [
+            "john-garland"
+        ]
+    },
+    "xna-advanced": {
+        "slug": "xna-advanced",
+        "title": "Advanced XNA Development for the Windows Phone 7",
+        "description": "Take a look at developing 2D and 3D games that leverage more advance features of the Window Phone 7 like accelerometer and networking.",
+        "track": "mostly-dot-net",
+        "space": "room-2",
+        "timePeriod": 1030,
+        "speakers": [
+            "michael-cummings"
+        ]
+    },
+    "xna-games-windows-phone": {
+        "slug": "xna-games-windows-phone",
+        "title": "Introduction to Developing XNA Games for Windows Phone 7",
+        "description": "Learn what it takes to develop games for the next gaming platform, Windows Phone 7.",
+        "track": "mostly-dot-net",
+        "space": "room-2",
+        "timePeriod": 900,
+        "speakers": [
+            "michael-cummings"
+        ]
     }
 }

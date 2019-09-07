@@ -7,20 +7,20 @@
     "room-2": {
         "slug": "room-2",
         "title": "Room 2",
-        "track": "web"
+        "track": "mostly-dot-net"
     },
     "room-3": {
         "slug": "room-3",
         "title": "Room 3",
-        "track": "data-and-more"
+        "track": "platform-agnostic"
     },
     "room-4": {
         "slug": "room-4",
         "title": "Room 4",
-        "track": "patterns-and-practices"
+        "track": "open-source"
     },
-    "speaker-room": {
-        "slug": "speaker-room",
-        "title": "Speaker Room"
+    "speaker-room-and-parlor-chat": {
+        "slug": "speaker-room-and-parlor-chat",
+        "title": "Speaker Room & Parlor Chat"
     }
 }

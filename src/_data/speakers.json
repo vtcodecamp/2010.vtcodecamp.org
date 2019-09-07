@@ -1,193 +1,224 @@
 {
+    "carl-bergenhem": {
+        "slug": "carl-bergenhem",
+        "firstName": "Carl",
+        "lastName": "Bergenhem",
+        "bio": "Carl Bergenhem is a Developer Support Specialist at [Telerik](http://www.telerik.com/) where he works with their ASP.NET Ajax, Silverlight, and WPF controls as well as their Reporting, OpenAccess ORM, JustCode, and WebUI Test Studio tools. Among these products he specializes mostly in the ASP.NET Ajax and WebUI Test Studio products. Telerik is a provider of development tools and user interface components for the .NET framework and they strive to provide developers with the tools to make their developing life as easy as possible.",
+        "sessions": [
+            "silverlight-part-2"
+        ]
+    },
+    "adam-bouchard": {
+        "slug": "adam-bouchard",
+        "firstName": "Adam",
+        "lastName": "Bouchard",
+        "bio": "Adam Bouchard is a web application developer and entrepreneur living in Burlington, Vermont. Over the past few years Adam has helped conceptualize and implement both web based products and business process tools during his work at [Draker Laboratories](http://www.drakerlabs.com/), a renewable energy monitoring company.",
+        "sessions": [
+            "ruby-introduction"
+        ]
+    },
     "chris-bowen": {
         "slug": "chris-bowen",
         "firstName": "Chris",
         "lastName": "Bowen",
-        "bio": "[Chris Bowen](http://blogs.msdn.com/cbowen) is a Principal Developer Evangelist with Microsoft, specializing in web technologies and working with customers and companies in the northeastern US. An architect and developer with over 18 years in the industry, he joined Microsoft after holding senior positions at companies such as Monster.com, VistaPrint, Staples, and IDX Systems. He is coauthor of \"Essential Windows Communication Foundation\" and \"Professional Visual Studio 2005 Team System\" and holds an M.S. in Computer Science and a B.S. in Management Information Systems, both from Worcester Polytechnic Institute.",
+        "bio": "Chris Bowen ([http://blogs.msdn.com/cbowen](http://blogs.msdn.com/cbowen)) is a Developer Evangelist with Microsoft, covering the Northeastern US. An architect and developer with over 17 years of experience, he joined Microsoft after holding senior positions at companies including Monster.com, VistaPrint, Staples, and IDX Systems, as well as consulting with others. He is coauthor of \"Essential Windows Communication Foundation\" and \"Professional Visual Studio 2005 Team System\" and holds an M.S. in Computer Science and a B.S. in Management Information Systems, both from Worcester Polytechnic Institute. Chris can be found on Twitter as @[ChrisBowen](http://twitter.com/ChrisBowen).",
         "twitter": {
             "href": "http://twitter.com/ChrisBowen",
             "title": "ChrisBowen"
         },
         "sessions": [
-            "html5-a-practical-first-look"
+            "webmatrix"
         ]
     },
-    "rene-churchill": {
-        "slug": "rene-churchill",
-        "firstName": "Rene",
-        "lastName": "Churchill",
-        "bio": "Rene has been programming in a wide variety of languages for over 20 years, including using PHP as far back as v3.0 in 1998. He provides consulting services as Astute Computing and is a partner in a local information venture, [WherezIt.com](http://www.wherezit.com/).",
-        "sessions": [
-            "web-security-issues",
-            "website-performance"
-        ]
-    },
-    "jack-corbett": {
-        "slug": "jack-corbett",
-        "firstName": "Jack",
-        "lastName": "Corbett",
-        "bio": "[Jack Corbett](http://www.wisemanorwiseguy.com/) has worked with SQL Server for over 10 years in small to mid-sized businesses ranging from manufacturing to non-profits. Jack has been active in PASS (Professional Association of SQL Server) as a key member of the organizing team for the inaugural PASS SQLRally 2011 in Orlando and involved in the program committee for the PASS Summit 2010. Jack is the former president of OPASS (Orlando SQL Server user group) and one of the organizers of SQLSaturday #21 and #49 in Orlando. Jack has spoken at several user groups, SQLSaturdays, and Code Camps. When Jack is not working with SQL Server he enjoys playing, coaching, and watching sports.",
+    "tom-cooley": {
+        "slug": "tom-cooley",
+        "firstName": "Tom",
+        "lastName": "Cooley",
+        "bio": "Tom Cooley is the Principal Software Architect for [MyWebGrocer](http://mywebgrocer.com/) in Colchester, VT. He has been designing and developing enterprise software systems for more than 20 years. His focus is on object-oriented design and on mentoring developers to use and understand both software and architectural design patterns and principles. He is the co-leader of the VT SQL Server User Group and a presenter at code camps and user group events. Tom can be found on Twitter as @[tom_cooley](http://twitter.com/tom_cooley).",
         "twitter": {
-            "href": "http://twitter.com/unclebiguns",
-            "title": "unclebiguns"
+            "href": "http://twitter.com/tom_cooley",
+            "title": "tom_cooley"
         },
         "sessions": [
-            "introduction-to-sql-server-profiler"
+            "bdd"
         ]
     },
     "christian-cote": {
         "slug": "christian-cote",
         "firstName": "Christian",
         "lastName": "Coté",
-        "bio": "[Christian Coté](http://ia-techconsulting.com/) has been in IT for almost 14 years. He is a Microsoft Certified Technical Specialist in Business Intelligence (MCTS-BI) and Microsoft Most Valuable Professional (MVP). For the last 12 years, he has been involved as a consultant in ETL/BI projects. His ETL projects were done using various ETL tools as well as using plain code with various RDBMS (Oracle, SQL Server).",
+        "bio": "Christian blogs at [http://bi-blogger.typepad.com/](http://bi-blogger.typepad.com/) and can be found on Twitter as @[Christian_SQL](http://twitter.com/Christian_SQL).</a>",
         "twitter": {
             "href": "http://twitter.com/Christian_SQL",
             "title": "Christian_SQL"
         },
         "sessions": [
-            "ssis-whats-new-in-sql-server-denali"
+            "ssis-advanced"
         ]
     },
-    "rob-friesel": {
-        "slug": "rob-friesel",
-        "firstName": "Rob",
-        "lastName": "Friesel",
-        "bio": "Rob Friesel is a Sr. User Interface Developer at [Dealer.com](http://www.dealer.com/), a JavaScript pedant, an occasional polyglot, and a reluctant composer of CSS; he blogs at [blog.founddrama.net](http://blog.founddrama.net/).",
+    "michael-cummings": {
+        "slug": "michael-cummings",
+        "firstName": "Michael",
+        "lastName": "Cummings",
+        "bio": "Principal systems analyst and software engineer, currently employed with Magenic, Inc., a Microsoft Gold Partner. An experienced technical lead with strengths in systems architecture, software development, infrastructure design & deployment, and business process as it relates to technology. Holding multiple certifications from Microsoft and other certifying organizations, including MCP, MCT, MCSD, MCSE, and MCDBA. A Dedicated community leader, who speaks at local user groups and code camps.Has been a hobby graphics programmer since the days of the TI99-4/A. Most of the day he's busy developing business applications, but that doesn't stop working on games and graphics engines. Started the [Boston XNA Developers Group](http://www.bostonxna.org/), and has spoken at several user groups and other events on the topic of XNA and games. Has contributed to many open source projects, including [AXIOM](http://axiom3d.net/), a .Net/Mono 3D rendering engine, and [Planeshift](http://www.planeshift.it/), a 3D MMORPG. His blog can be found at [http://www.geekswithblogs.net/mathoms](http://www.geekswithblogs.net/mathoms) and he can be found on Twitter as @[mcummings](http://twitter.com/mcummings).",
         "twitter": {
-            "href": "http://twitter.com/founddrama",
-            "title": "founddrama"
+            "href": "http://twitter.com/mcummings",
+            "title": "mcummings"
         },
         "sessions": [
-            "css-wrangling-with-sass"
+            "xna-advanced",
+            "xna-games-windows-phone"
+        ]
+    },
+    "kathleen-dollard": {
+        "slug": "kathleen-dollard",
+        "firstName": "Kathleen",
+        "lastName": "Dollard",
+        "bio": "Kathleen Dollard is a consultant, author, trainer, and speaker. She's been a Microsoft MVP for over ten years and has spoken about .NET in 28 states and 5 countries. She's written dozens of articles including the \"Ask Kathleen\" column in Visual Studio Magazine. She also wrote \"Code Generation in Microsoft .NET\" (Apress). Her passion is helping programmers be smarter in how they develop by learning to better use .NET languages, libraries and platforms. She works with WPF, WF, as well as core technologies including System.AddIn. She's currently creating template infrastructure for code generation using VB XML literals. After working on the problem of capturing business intent in metadata and test definitions for years, she's working with industry improvements in these areas. She's also working on full life cycle improvements, such as unit testing, better debugging and static analysis (FxCop). When not working, she enjoys woodworking, snowshoeing, and kayaking depending on the outdoor temperature. Kathleen's blog, Leaning into Windows, can be found at [http://msmvps.com/blogs/kathleen](http://msmvps.com/blogs/kathleen/) and she can be found on Twitter as @[KathleenDollard](http://twitter.com/KathleenDollard).",
+        "twitter": {
+            "href": "http://twitter.com/KathleenDollard",
+            "title": "KathleenDollard"
+        },
+        "sessions": [
+            "mef",
+            "visual-studio-tips-tricks"
         ]
     },
     "john-garland": {
         "slug": "john-garland",
         "firstName": "John",
         "lastName": "Garland",
-        "bio": "John is a Senior Consultant at Wintellect and has been developing software professionally for over 12 years, having spent most of his career working on high-performance video and statistical analysis tools for premier sports teams, with an emphasis on the NFL, the NBA, and Division 1 NCAA Football and Basketball. John is an active presenter in the New England .Net Development Community, having spoken at recent Code Camps in New Hampshire, Vermont, and Massachusetts. He holds Microsoft certifications in Windows and Silverlight Development technologies.",
-        "twitter": {
-            "href": "http://twitter.com/DotNetGator",
-            "title": "DotNetGator"
-        },
+        "bio": "John is a Senior Consultant at Wintellect and has been developing software professionally for over 12 years, having spent most of his career working on high-performance video and statistical analysis tools for premier sports teams, with an emphasis on the NFL, the NBA, and Division 1 NCAA Football and Basketball. Prior to joining Wintellect, John worked for Burntsand Consulting, working with both large and small enterprises using .Net technologies for applications including purchase management, logistics, and insurance solutions. John lives in New Hampshire with his wife and daughter, where he is active in the New England development community, speaking at Code Camp and User Group events.  When he isn't finding cause for yet another upgrade to his WMC-based home entertainment system, he occasionally turns to motorcycling and Florida Gator Football to unplug.  He is a graduate of the University of Florida with a Bachelor's degree in Computer Engineering.",
         "sessions": [
-            "silverlight-development-wp-7-1"
+            "windows-phone-silverlight"
         ]
     },
     "vincent-grondin": {
         "slug": "vincent-grondin",
         "firstName": "Vincent",
         "lastName": "Grondin",
-        "bio": "Vincent Grondin has 13 years of experience in the software development field and has been using .NET in enterprise projects for 8 years now. He was involved in many enterprise projects for large corporations like Desjardins, Domtar, Cascades and Alcoa but was also part of a few projects for various government branches. He likes to learn new technologies related to .NET, use the new tools that are designed for .NET and he loves to share it all with his peers. Yes, he's a confessed .NET addict, he's also a C# MVP and is currently working at DMR, a Fujitsu company, as a Senior Consultant.",
+        "bio": "Vincent Grondin has over 12 years of experience in the software development field and has been using .NET in enterprise projects for 7 years now. He was involved in many enterprise projects for large corporations like Desjardins, Domtar, Cascades and Alcoa but was also part of a few projects for various government branches. He likes to learn new technologies related to .NET, use the new tools that are designed for .NET and loves to share it all with his peers. Yes, he's a confessed .NET addict and is currently working at DMR, a Fujitsu company, as a Consultant. Vincent is one of the leaders for the .NET usergroup in Montréal and a C# MVP.  You can read his blogs at [geekswithblogs.net/vincentgrondin](http://geekswithblogs.net/vincentgrondin).",
         "sessions": [
-            "mocking-and-mocking-frameworks",
-            "vs-2010-testing-tools"
+            "lambdas-visual-studio"
         ]
     },
-    "david-howell": {
-        "slug": "david-howell",
-        "firstName": "David",
-        "lastName": "Howell",
-        "bio": "David Howell is a software engineer at [Dealer.com](http://www.dealer.com/). He has worked on software problems in data analysis for six years, first in experimental particle physics and more recently as a software developer at Wolfram Research and [wolframalpha.com](http://www.wolframalpha.com/).",
+    "bradley-holt": {
+        "slug": "bradley-holt",
+        "firstName": "Bradley",
+        "lastName": "Holt",
+        "bio": "Bradley Holt is a web developer, entrepreneur, community facilitator, and an advocate of free/open source software, open standards, and open content (e.g. Creative Commons). He is the co-founder of [Found Line](http://foundline.com/), a Burlington-based creative studio with capabilities in web development, graphic design, and marketing strategy. He has ten years of experience with PHP and MySQL and is a Zend Certified Engineer in Zend Framework (ZCE-ZF) with three years of experience building Zend Framework applications. He is also a contributor of source code and bug reports to Zend Framework and an active member of the PHP community. He organizes the [Burlington, VT PHP Users Group](http://groups.google.com/group/burlington-vt-php). Bradley blogs at [bradley-holt.com](http://bradley-holt.com/) and can be found on Twitter as @[BradleyHolt](http://twitter.com/BradleyHolt).",
         "twitter": {
-            "href": "http://twitter.com/dehowell",
-            "title": "dehowell"
+            "href": "http://twitter.com/BradleyHolt",
+            "title": "BradleyHolt"
         },
         "sessions": [
-            "tackling-big-data-with-hadoop"
+            "php-introduction",
+            "user-groups"
+        ]
+    },
+    "jesse-kliza": {
+        "slug": "jesse-kliza",
+        "firstName": "Jesse",
+        "lastName": "Kliza",
+        "bio": "As Director of Marketing for [Apprenda](http://apprenda.com/), Jesse is responsible for the creation and execution of Apprenda's strategic marketing initiatives, generating demand and awareness, and evolving the company's brand. Jesse draws from a strong background in Software as a Service, having served as Community Evangelist and Product Manager at SaaS ISV Autotask before joining Apprenda. Prior to Autotask, Jesse served as Director of Marketing at Eden Communications (acquired by Unicom Systems). Jesse holds a Bachelor's Degree in Information Technology, with a focus in Neuroscience from Rensselaer Polytechnic Institute. Jesse can be found on Twitter as @[kliza23](http://twitter.com/kliza23).",
+        "twitter": {
+            "href": "http://twitter.com/kliza23",
+            "title": "kliza23"
+        },
+        "sessions": [
+            "cloud-software-fail"
+        ]
+    },
+    "slava-kokaev": {
+        "slug": "slava-kokaev",
+        "firstName": "Slava",
+        "lastName": "Kokaev",
+        "bio": "Principal BI Developer/Architect, Mentor, INETA Regional Speaker and NE Microsoft Business Intelligence Community Leader specializing in Business Intelligence Systems, Custom BI Web Applications and BI Integration. Slava blogs at [bostonbi.org/blog.aspx](http://bostonbi.org/blog.aspx).",
+        "sessions": [
+            "olap"
+        ]
+    },
+    "kathleen-macmahon": {
+        "slug": "kathleen-macmahon",
+        "firstName": "Kathleen",
+        "lastName": "MacMahon",
+        "bio": "Kathleen MacMahon is a Software Development Manager for [Harmony Information Systems](http://www.harmonyis.com/) with over ten years development experience. Current project is a an Enterprise Software Solution, developed in Silverlight 4.0, .NET 4.0 and WCF RIA Services. Kathleen can be found on Twitter as @[kmacmahon](http://twitter.com/kmacmahon).",
+        "twitter": {
+            "href": "http://twitter.com/kmacmahon",
+            "title": "kmacmahon"
+        },
+        "sessions": [
+            "prism-introduction"
         ]
     },
     "everett-mckay": {
         "slug": "everett-mckay",
         "firstName": "Everett",
         "lastName": "McKay",
-        "bio": "Everett McKay is the principal of [UX Design Edge](http://www.uxdesignedge.com/), a user experience design training and consulting firm specializing in helping non-designers based in St. Albans, Vermont. UX Design Edge's flagship course is UX Design Essentials Workshop, a two-day onsite course where your team members can improve their UX design skills \"by doing\" by redesigning your own app or site, and User Experience Design Basics, a three-hour online training course that covers the essential, practical skills non-designers need to get started in UI design. Everett is now working on UX Design for Silverlight, a public two-day course that gives Silverlight developers the essentials they need to know about UX design. Previously, Everett was a program manager at Microsoft on the Windows 7 and Windows Vista teams, and was responsible for the Windows User Experience Interaction Guidelines.",
-        "twitter": {
-            "href": "http://twitter.com/UXDesignEdge",
-            "title": "UXDesignEdge"
-        },
+        "bio": "Everett McKay is the principal of [UX Design Edge](http://www.uxdesignedge.com/), a user experience design consulting and training firm specializing in helping non-designers based in St. Albans. Previously, he was a program manager at Microsoft on the Windows 7 and Windows Vista teams, and was responsible for the [Windows User Experience Interaction Guidelines](http://msdn.microsoft.com/en-us/library/aa511258.aspx).",
         "sessions": [
-            "effective-prototyping"
-        ]
-    },
-    "dane-morgridge": {
-        "slug": "dane-morgridge",
-        "firstName": "Dane",
-        "lastName": "Morgridge",
-        "bio": "Dane Morgridge has been a programmer for 10+ years and has worked with numerous technologies in this time. His current passions are Ruby on Rails & C++. In addition to software development, he is the host of the Community Megaphone Podcast, plays the drums and also enjoys dabbling in graphic design, video special effects and hockey. When not with his family he is usually learning some new technology or working on some side projects. He can be reached through [http://www.danemorgridge.com](http://danemorgridge.com/) or on Twitter @[danemorgridge](http://twitter.com/danemorgridge).",
-        "twitter": {
-            "href": "http://twitter.com/danemorgridge",
-            "title": "danemorgridge"
-        },
-        "sessions": [
-            "asp-net-mvc-a-gateway-to-rails",
-            "testable-entity-framework"
+            "ui-ux"
         ]
     },
     "jim-oneil": {
         "slug": "jim-oneil",
         "firstName": "Jim",
         "lastName": "O'Neil",
-        "bio": "Jim is one of the Microsoft Developer Evangelists in the New England and upstate New York area. He's been focused on cloud computing and Windows Azure pretty much since the platform was announced at the Professional Developers Conference in 2008.",
+        "bio": "Jim is one of the two Microsoft Developer Evangelists covering New England and upstate New York. He has over 20 years experience in software development and support having worked at BDM, MITRE, Sybase, and now Microsoft. Jim has a B.S. in Mathematics and Computer Science and an M.S. in Computer Science from Duke University. Jim blogs at [http://blogs.msdn.com/jimoneil](http://blogs.msdn.com/jimoneil) and can be found on Twitter as @[jimoneil](http://twitter.com/jimoneil).",
         "twitter": {
             "href": "http://twitter.com/jimoneil",
             "title": "jimoneil"
         },
         "sessions": [
-            "cloud-computing-smorgasbord"
+            "project-dallas"
         ]
     },
-    "jonathan-phillips": {
-        "slug": "jonathan-phillips",
-        "firstName": "Jonathan",
-        "lastName": "Phillips",
-        "bio": "Jonathan Phillips is a Technical Director at [Dealer.com](http://www.dealer.com/). Jonathan has been doing User Interface development for 13 years and has worked at a number of startups in Colorado before moving to Vermont in 2008.",
+    "jason-pelletier": {
+        "slug": "jason-pelletier",
+        "firstName": "Jason",
+        "lastName": "Pelletier",
+        "bio": "Jason Pelletier is Creative Director at [Found Line](http://foundline.com/), a Burlington-based creative firm. His work experience includes web application and print design for Stonyfield Farm, Seventh Generation, Vermont Public Radio, TrueBody Products, ThinkFlood and Common Good Vermont. He can be found on Twitter as @[jason_pelletier](http://twitter.com/jason_pelletier).",
         "twitter": {
-            "href": "http://twitter.com/hobopuma",
-            "title": "hobopuma"
+            "href": "http://twitter.com/jason_pelletier",
+            "title": "jason_pelletier"
         },
         "sessions": [
-            "functional-programming-on-the-jvm"
+            "css"
         ]
     },
-    "maxime-rouiller": {
-        "slug": "maxime-rouiller",
-        "firstName": "Maxime",
-        "lastName": "Rouiller",
-        "bio": "Maxime is a developer at [Logiweb](http://www.logiweb.ca/), company based in Montreal, specialized in the development of custom software using the latest Microsoft Technologies such as Visual Studio 2010 and .NET Framework 4.0, ASP.NET MVC or Web Forms and Microsoft SQL Server databases. Logiweb implements the expertise of a multidisciplinary team united by strong values and develops using the Agile philosophy. Its team of specialists performs the development of accessible websites, in accordance with SGQRI 008 standard, following the WCAG 2.0 standards issued by W3C's WAI.",
-        "twitter": {
-            "href": "http://twitter.com/MaximRouiller",
-            "title": "MaximRouiller"
-        },
+    "dennis-perlot": {
+        "slug": "dennis-perlot",
+        "firstName": "Dennis",
+        "lastName": "Perlot",
+        "bio": "Dennis Perlot has worked on computing platforms ranging from homemade circuit boards to massive mainframes systems and just about everything in between. Prior to joining TyMetrix as Director of Product Development, Dennis architected and managed numerous projects at The Hartford Insurance Group and has consulted for numerous companies in the greater Hartford, CT area. He enjoys his role as a technology evangelist, leverages his teaching skills and his engineering background. He is a frequent speaker at Code Camp events and has presented at the Architect Factory Conference held at Microsoft Research Center in Cambridge, MA. He is a firm believer in the value of building the technical community through users groups. Dennis is on the Board of Directors for the CT Dot NET User Group, Hartford SQL Server User Group and founder of the New England Silverlight Guild. Dennis was honored to receive a Smithsonian Award for data warehouse work in Medicare fraud detection. This project was used by the Government Accounting Office (GAO) and other federal agencies to identify over $110 million of fraud and actually recovered over $11 million. Dennis is a graduate of the University of Connecticut's Computer Science Engineering program and also did graduate work in Artificial Intelligence and Machine Learning.",
         "sessions": [
-            "asp-net-mvc-3"
+            "silverlight-part-1"
         ]
     },
-    "josh-sled": {
-        "slug": "josh-sled",
-        "firstName": "Josh",
-        "lastName": "Sled",
-        "bio": "Josh is a Burlington, VT based software developer. A professional Java developer, Josh has a career spanning point-of-sale biometric processing systems, public-facing social-networking websites, Enterprise-installed monitoring tools and open-source solutions for accounting and Homebrewing beer. Implementation languages have ranged from C to Java, Python, javascript, bash and even tcl and elisp, when pressed.",
+    "rob-rohr": {
+        "slug": "rob-rohr",
+        "firstName": "Rob",
+        "lastName": "Rohr",
+        "bio": "Rob Rohr has been a developer for the School of Business Administration at the University of Vermont for the past 14 years. Rob has dipped his coding toe in the seas of content management, ink/touch development, mobile development, PowerShell and functional programming and likes to share the programming weirdness that he has encountered along the way. Rob can be found on Twitter as @[rob_rohr](http://twitter.com/rob_rohr).",
         "twitter": {
-            "href": "http://twitter.com/joshsled",
-            "title": "joshsled"
+            "href": "http://twitter.com/rob_rohr",
+            "title": "rob_rohr"
         },
         "sessions": [
-            "dependency-injection",
-            "emacs"
+            "f-sharp-introduction"
         ]
     },
-    "eric-smith": {
-        "slug": "eric-smith",
-        "firstName": "Eric",
-        "lastName": "Smith",
-        "bio": "Eric Smith is Systems Architect at EatingWell Media Group. He has been programming for more than 30 years and managing development projects since 1995.",
+    "nowell-strite": {
+        "slug": "nowell-strite",
+        "firstName": "Nowell",
+        "lastName": "Strite",
+        "bio": "Nowell Strite is the Senior Manager of Technology Solutions at the Public Broadcasting Service (PBS) in their Education department. Nowell is happiest when he is wearing many hats: architect,  developer, manager, problem solver, technologist. Most recently, Nowell has taken to Python as his language of choice, however, every problem/job has its own unique set of requirements, and he has worked with a wide range of languages and frameworks in the past (C#, VB, Java, PHP, Perl, ColdFusion). Nowell actively participates in the Open Source community, and enjoys working on existing projects as well as releasing a few of his own. Nowell and his wife recently moved to Huntington, Vermont where they enjoy the non-technological joys in life such as hiking, kayaking and biking. Nowell blogs at [http://nowell.strite.org/](http://nowell.strite.org/) and can be found on most services (including Twitter) as @[nowells](http://twitter.com/nowells)</a>.",
         "twitter": {
-            "href": "http://twitter.com/thinkingeric",
-            "title": "thinkingeric"
+            "href": "http://twitter.com/nowells",
+            "title": "nowells"
         },
         "sessions": [
-            "functional-programming"
+            "python-introduction"
         ]
     },
     "kevin-thorley": {
@@ -196,87 +227,42 @@
         "lastName": "Thorley",
         "bio": "Senior software engineer working at [Dealer.com](http://www.dealer.com/) with 10 years of experience developing enterprise applications in Java.",
         "sessions": [
-            "foss-in-the-enterprise"
+            "git"
         ]
     },
-    "etienne-tremblay": {
-        "slug": "etienne-tremblay",
-        "firstName": "Etienne",
-        "lastName": "Tremblay",
-        "bio": "Etienne Tremblay is an Associate Director in charge of the Microsoft technologies center at Fujitsu Canada in Montreal. He has over 20 years of experience in the IT industry and he specialized in Microsoft technologies in the last 12 years, specifically in managing the development process, he also has expertise in the mining and manufacturing industries. He has spoken at various events since 2005 and a Microsoft ALM MVP.",
+    "matthew-weier-ophinney": {
+        "slug": "matthew-weier-ophinney",
+        "firstName": "Matthew",
+        "lastName": "Weier O'Phinney",
+        "bio": "Matthew is an experienced developer in a number of dynamic languages, including Perl, JavaScript, and PHP (his preferred language). Matthew and his family moved to the Vermont in 2003. He worked for two years at the National Gardening Association in South Burlington before being hired by [Zend Technologies](http://www.zend.com/) in 2005. Since starting at Zend, he has been a regular contributor to [Zend Framework](http://framework.zend.com/), a web application framework written in PHP 5. In late 2007, Matthew moved to the Zend Framework team full time, and was appointed project lead in 2009. He has contributed to and started a number of open source projects over the years, primarily in PHP, and is active in the global PHP community. Matthew blogs at [http://weierophinney.net/matthew/](http://weierophinney.net/matthew/) and can be found on Twitter as @[weierophinney](http://twitter.com/weierophinney).",
         "twitter": {
-            "href": "http://twitter.com/tegaaa",
-            "title": "tegaaa"
+            "href": "http://twitter.com/weierophinney",
+            "title": "weierophinney"
         },
         "sessions": [
-            "lets-talk-virtualization",
-            "vs-2010-testing-tools"
-        ]
-    },
-    "matt-van-horn": {
-        "slug": "matt-van-horn",
-        "firstName": "Matt",
-        "lastName": "Van Horn",
-        "bio": "Matt Van Horn is a Sr. Consultant with Capax Global. In his current role, Matt is responsible for working with clients to produce applications to serve our clients' needs. Matt, a seasoned developer with proficiencies in a wide-array of programming languages and platforms, focuses on creating flexible and dynamic code tailored to the specific needs of customers. Matt is an experienced presenter, regularly speaking at Usergroup meetings and Code Camps.",
-        "twitter": {
-            "href": "http://twitter.com/phpn00b",
-            "title": "phpn00b"
-        },
-        "sessions": [
-            "getting-high-on-mef",
-            "software-consulting"
-        ]
-    },
-    "maura-wilder": {
-        "slug": "maura-wilder",
-        "firstName": "Maura",
-        "lastName": "Wilder",
-        "bio": "Maura Wilder is a hands-on application architect at Teradata Corp. Besides toiling in Java, GWT, and ASP.Net, she spends a lot of time working on the \"client-side\", especially with JavaScript and web application performance. She's also quite adept at laundry.",
-        "twitter": {
-            "href": "http://twitter.com/squdgy",
-            "title": "squdgy"
-        },
-        "sessions": [
-            "ext-js"
+            "php-introduction"
         ]
     },
     "bill-wilder": {
         "slug": "bill-wilder",
         "firstName": "Bill",
         "lastName": "Wilder",
-        "bio": "Bill Wilder lives in the Boston area and has more than 20 years of professional experience in software development, currently focused on cloud computing with the Windows Azure platform. He is a Windows Azure MVP, founder of the [Boston Azure User Group](http://www.bostonazure.org/), and an active speaker and [blogger](http://blog.codingoutloud.com/).",
+        "bio": "Bill Wilder has been a professional software developer for more than 20 years. Last year he founded the Boston Azure User Group, an in-person cloud computing community which gets together monthly to learn about Windows Azure through prepared talks and hands-on coding. Bill is especially excited about the Boston Azure Project, a collaborative Windows Azure coding project just starting up in the Boston Azure community. Bill is an active community speaker, blogger ([blog.codingoutloud.com](http://blog.codingoutloud.com/)), and tweeter (@[codingoutloud](http://twitter.com/codingoutloud)) on technology matters and soft skills for technologists, and is also a member of Boston West Toastmasters. Separately, Bill has a day job as an enterprise architect focusing on Microsoft development technologies, including .NET.",
         "twitter": {
             "href": "http://twitter.com/codingoutloud",
             "title": "codingoutloud"
         },
         "sessions": [
-            "cloud-architecture-patterns"
+            "windows-azure"
         ]
     },
-    "joan-wortman": {
-        "slug": "joan-wortman",
-        "firstName": "Joan",
-        "lastName": "Wortman",
-        "bio": "Joan Wortman is a UI architect and developer with over 15 years experience creating web based business applications. She is a self-professed JavaScript junkie and all around UI generalist.",
-        "twitter": {
-            "href": "http://twitter.com/zizzp",
-            "title": "zizzp"
-        },
+    "chris-yager": {
+        "slug": "chris-yager",
+        "firstName": "Chris",
+        "lastName": "Yager",
+        "bio": "Chris Yager is a technical lead at [Dealer.com](http://www.dealer.com/). He previously spent mover than ten years at IBM as a Senior I/T Specialist.",
         "sessions": [
-            "ext-js"
-        ]
-    },
-    "john-zablocki": {
-        "slug": "john-zablocki",
-        "firstName": "John",
-        "lastName": "Zablocki",
-        "bio": "John Zablocki is a Development Manager at HealthcareSource in Woburn, MA. He is the founder of Beantown ALT.NET and former adjunct at Fairfield University in the Dolan School of Business. John holds an M.S. in Computer Science from Rensselaer, where he became an enthusiast of open source technologies. Online, John can be found at [http://about.me/johnzablocki](http://about.me/johnzablocki). Offline, he can be found too infrequently with his dog, daughter, and his Fender Telecaster.",
-        "twitter": {
-            "href": "http://twitter.com/CodeVoyeur",
-            "title": "CodeVoyeur"
-        },
-        "sessions": [
-            "dot-net-and-nosql"
+            "build-process"
         ]
     }
 }

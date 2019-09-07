@@ -1,18 +1,18 @@
 {
-    "data-and-more": {
-        "slug": "data-and-more",
-        "title": "Data & More"
-    },
     "dot-net": {
         "slug": "dot-net",
         "title": ".NET"
     },
-    "patterns-and-practices": {
-        "slug": "patterns-and-practices",
-        "title": "Patterns & Practices"
+    "mostly-dot-net": {
+        "slug": "mostly-dot-net",
+        "title": "Mostly .NET"
     },
-    "web": {
-        "slug": "web",
-        "title": "Web"
+    "open-source": {
+        "slug": "open-source",
+        "title": "Open Source"
+    },
+    "platform-agnostic": {
+        "slug": "platform-agnostic",
+        "title": "Platform Agnostic"
     }
 }
